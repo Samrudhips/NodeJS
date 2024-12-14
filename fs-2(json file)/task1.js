@@ -1,6 +1,6 @@
 //read json file and print all the usernames
-import fs from 'fs'
 //To work with file we use fs module
+import fs from 'fs'
 fs.readFile('users.json','utf-8',(err,data)=>{
     if(err)throw err
     console.log(typeof data)
@@ -10,4 +10,3 @@ fs.readFile('users.json','utf-8',(err,data)=>{
         console.log(user.name);   
     }   
 })
-
