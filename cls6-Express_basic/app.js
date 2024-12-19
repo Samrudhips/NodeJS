@@ -1,5 +1,6 @@
 import express from 'express'
 import path from 'path'
+//in express we use send
 
 let app=express()
 // // // "/" means root  file

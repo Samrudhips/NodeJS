@@ -1,0 +1,27 @@
+npm init -y
+npm i express
+API info
+
+API url:http://127.0.0.1:8080/
+Method types:GET
+Required fields:None
+Access type:public
+
+can run in the browser
+
+but other three should be run on postman
+
+API url:http://127.0.0.1:8080/
+Method types:POST
+Required fields:None
+Access type:public
+
+API url:http://127.0.0.1:8080/
+Method types:PUT
+Required fields:None
+Access type:public
+
+API url:http://127.0.0.1:8080/
+Method types:DELETE
+Required fields:None
+Access type:public
