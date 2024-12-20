@@ -7,7 +7,10 @@ dotenv.config({'path':"./config/dev.env"})
 let port = process.env.PORT 
 let host = process.env.HOSTNAME
 
+
+
 app.get("/test",(req,resp)=>{
+    console.log("PORT:",port)
     return resp.json({"msg":"Root Req - "})
 })
 
